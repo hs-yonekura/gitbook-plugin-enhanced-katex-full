@@ -1,5 +1,5 @@
 {
-    "name": "gitbook-plugin-enhanced-katex",
+    "name": "gitbook-plugin-enhanced-katex-full",
     "description": "Math typesetting using KaTex into GitBook",
     "main": "index.js",
     "version": "1.0.0",
@@ -13,7 +13,7 @@
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/Zaid-Ajaj/gitbook-enhanced-katex/issues"
+        "url": "https://github.com/hs-yonekura/gitbook-plugin-enhanced-katex-full/issues"
     },
     "dependencies": {
         "katex": "0.7.1"

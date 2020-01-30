@@ -18,8 +18,8 @@ module.exports = {
         math: { // triple dollar signs ($) for math blocks (centered)
             shortcuts: {
                 parsers: ["markdown", "asciidoc", "restructuredtext"],
-                start: "$$$",
-                end: "$$$"
+                start: "$$",
+                end: "$$"
             },
             process: function(blk) {
                 var tex = blk.body;
@@ -34,8 +34,8 @@ module.exports = {
         math_inline: { // double dollar sign for inline math
             shortcuts: {
                 parsers: ["markdown", "asciidoc", "restructuredtext"],
-                start: "$$",
-                end: "$$"
+                start: "$",
+                end: "$"
             },
             process: function(blk) {
                 var tex = blk.body;
